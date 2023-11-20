@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+}
+form {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+form input[type="text"], form input[type="password"], form input[type="button"] {
+    display: block;
+    width: 90%;
+    margin: 10px;
+}
+a:link, a:visited {
+    color: rgb(122, 122, 247);
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
